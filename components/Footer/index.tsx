@@ -14,8 +14,10 @@ export default function Footer() {
             </h2>
 
             <p className="mb-2 text-white px-10 pt-3 max-w-xl font-normal text-body text-center leading-relaxed">
-              Interested in working together? We should queue up a time to chat.
-              I’ll buy the coffee.{" "}
+              {/* Interested in working together? We should queue up a time to chat.
+              I’ll buy the coffee.{" "} */}
+              Interessado em trabalhar juntos? Devemos agendar um horário para
+              conversar. O café é por minha conta.
             </p>
             {/* <p
               type="email"
@@ -25,7 +27,7 @@ export default function Footer() {
             </p> */}
             <button className="bg-transparent text-white p-3 rounded-full border-2 border-green hover:border-transparent hover:bg-green transition hover:text-black flex">
               <BiLogoGmail size={20} />
-              <p className=" px-2 font-medium">Let's Chat</p>
+              <p className=" px-2 font-medium">Vamos Conversar</p>
             </button>
             <div className="flex mt-6 justify-center px-6">
               <a

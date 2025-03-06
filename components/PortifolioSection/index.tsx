@@ -17,30 +17,36 @@ export default function PortifolioSection() {
     {
       title: "Nhabex",
       images: [
-        "/images/nhabex.png",
-        "/images/salle-sport.png",
+        "/images/nhabex1.png",
         "/images/nhabex2.png",
+        "/images/nhabex3.png",
       ],
       description:
         "Sistema de senhas para atendimento em instituições públicas e privadas.",
       status: "Em desenvolvimento",
       where: "ITSolutions",
-      website: "https://nhabex.com",
-      technologies: ["React", "Next.js", "Tailwind", "Firebase"],
+      website: "https://dev.nhabex.cv",
+      technologies: ["Next.js", "Tailwind", "Shadcn/ui", "php", "Laravel"],
     },
     {
       title: "Sports Hall Management",
       images: [
-        "/images/salle-sport.png",
-        "/images/salle-sport.png",
-        "/images/salle-sport.png",
+        "/images/salle-sport1.png",
+        "/images/salle-sport2.png",
+        "/images/salle-sport3.png",
       ],
       description:
         "Plataforma de gerenciamento para academias e espaços esportivos.",
       status: "Terminado",
       where: "Pessoal",
-      website: "https://sportshalls.com",
-      technologies: ["Angular", "Spring Boot", "PostgreSQL"],
+      website: "",
+      technologies: [
+        "Angular",
+        "Spring Boot",
+        "Mysql",
+        "Angular Material",
+        "Java",
+      ],
     },
   ];
 

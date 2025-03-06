@@ -16,10 +16,10 @@ export default function SkillsSection() {
             <Code className="w-10 h-10 text-green" />
           </div>
           <h2 className="text-2xl font-bold mb-4">Backend</h2>
-          <p className="mb-8">
+          {/* <p className="mb-8">
             I value simple content structure, clean design patterns, and
             thoughtful interactions.
-          </p>
+          </p> */}
 
           <div className="w-full">
             {/* <h3 className="text-blue font-medium mb-2 ">Linguagens usadas</h3>
@@ -54,10 +54,10 @@ export default function SkillsSection() {
             <Layers className="w-10 h-10 text-green" />
           </div>
           <h2 className="text-2xl font-bold mb-4">Frontend</h2>
-          <p className="mb-8">
+          {/* <p className="mb-8">
             I like to code things from scratch, and enjoy bringing ideas to life
             in the browser.
-          </p>
+          </p> */}
 
           <div className="w-full">
             {/* <h3 className="text-purple-600 font-medium mb-2">
@@ -100,10 +100,10 @@ export default function SkillsSection() {
           <h2 className="text-2xl font-bold mb-4">
             Outras Linguagens e tecnologias
           </h2>
-          <p className="mb-8">
+          {/* <p className="mb-8">
             I genuinely care about people, and enjoy helping them work on their
             craft.
-          </p>
+          </p> */}
 
           <div className="w-full">
             {/* <h3 className="text-purple-600 font-medium mb-2">

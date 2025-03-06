@@ -119,7 +119,7 @@ const Modal: React.FC<ProjectModalProps> = ({
 
         {/* Where */}
         <div className="mt-4">
-          <h3 className="font-semibold font-title">Where</h3>
+          <h3 className="font-semibold font-title">Onde</h3>
           <p className="text-gray-600">{where}</p>
         </div>
 
