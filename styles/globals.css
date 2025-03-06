@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --body_background: white;
+    --link_color: white;
+    --title_color: white;
+    --agency_card_bg: white;
+    --btn_border_color: #ffff;
+    --font-family: "Inter", sans-serif;
+    --primary-color: #3cbda1;
+}
+[data-theme="dark"] {
+    --body_background: black;
+    --link_color: black;
+    --title_color: black;
+    --agency_card_bg: black;
+    --btn_border_color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
