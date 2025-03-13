@@ -26,7 +26,7 @@ export default function PortifolioSection() {
       status: "Em desenvolvimento",
       where: "ITSolutions",
       website: "https://dev.nhabex.cv",
-      technologies: ["Next.js", "Tailwind", "Shadcn/ui", "php", "Laravel"],
+      technologies: ["Next.js", "Tailwind", "Laravel"],
     },
     {
       title: "Sports Hall Management",
@@ -40,13 +40,7 @@ export default function PortifolioSection() {
       status: "Terminado",
       where: "Pessoal",
       website: "",
-      technologies: [
-        "Angular",
-        "Spring Boot",
-        "Mysql",
-        "Angular Material",
-        "Java",
-      ],
+      technologies: ["Angular", "Spring Boot", "SQL & PL/SQL"],
     },
   ];
 
