@@ -14,7 +14,8 @@ import { useTheme } from "next-themes";
 import LanguageSwitcher from "@/components/language-switcher";
 
 export default function Header() {
-  // const language = useTranslations("Navigation");
+  // const language = useTranslations("Header");
+
   const router = useRouter(); // Instância do roteador
 
   // Navbar toggle
@@ -63,15 +64,15 @@ export default function Header() {
 
   return (
     <header className="fixed left-0 top-0 z-40 w-full bg-white dark:bg-black text-black dark:text-white font-poppins">
-      <div className="container mx-[7%] flex flex-wrap items-center justify-between p-4">
+      <div className="container flex flex-wrap items-center justify-between p-4">
         {/* LOGO */}
-        <div className="w-auto px-2">
+        <div className="mx-[5%] w-auto px-2">
           <Link
             href="#hero"
             className="block w-auto sm:w-[15rem] hover:scale-105 transition duration-200"
           >
             <p className="font-black font-title dark:text-white text-xl sm:text-title-sm text-left">
-              Erickson <br />
+              Erickson
               <span className="font-signature block text-blue text-xl sm:text-title-md">
                 Da Veiga
               </span>
@@ -79,7 +80,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <nav className="hidden md:flex font-title w-auto space-x-4 md:space-x-9 text-sm sm:text-md">
+        <nav className=" flex  font-title w-auto space-x-2 md:space-x-9 xl:mr-4 text-sm sm:text-md">
           <Link
             href="#about"
             className="hover:scale-125 transition duration-200"
@@ -93,43 +94,13 @@ export default function Header() {
             Skills
           </Link>
           <Link
-            href="#projects"
+            href="#portfolio"
             className="hover:scale-125 transition duration-200"
           >
-            Projects
+            Portifolio
           </Link>
+          {/* <LanguageSwitcher /> */}
         </nav>
-        {/*
-        <div className="relative">
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="bg-gray-700 text-white px-4 py-2 rounded-md hover:bg-gray-600 transition"
-          >
-            🌐 Idioma
-          </button>
-          {isOpen && (
-            <div className="absolute right-0 mt-2 w-32 bg-white shadow-lg rounded-md">
-              <button
-                onClick={() => changeLanguage("pt")}
-                className="block px-4 py-2 hover:bg-gray-200 w-full text-left"
-              >
-                🇧🇷 Português
-              </button>
-              <button
-                onClick={() => changeLanguage("en")}
-                className="block px-4 py-2 hover:bg-gray-200 w-full text-left"
-              >
-                🇺🇸 English
-              </button>
-              <button
-                onClick={() => changeLanguage("fr")}
-                className="block px-4 py-2 hover:bg-gray-200 w-full text-left"
-              >
-                🇫🇷 Français
-              </button>
-            </div>
-          )}
-        </div> */}
       </div>
     </header>
   );

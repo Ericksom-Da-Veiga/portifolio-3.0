@@ -4,14 +4,14 @@ export default function SkillsSection() {
   return (
     <section
       id="skills"
-      className=" translate-x-0 max-w-sm md:max-w-3xl lg:max-w-5xl 2xl:max-w-7xl mx-auto px-8 sm:px-16 md:px-24 py-16 -mt-44 z-10 bg-white rounded-3xl shadow-xl"
+      className=" translate-x-0 max-w-sm md:max-w-3xl lg:max-w-5xl 2xl:max-w-7xl md:mx-auto px-8 sm:px-16 md:px-24 py-16 -mt-44 z-10 bg-white rounded-3xl shadow-xl mx-[7%]"
     >
       <h2 className="text-title-lg font-title font-extrabold mb-10 text-center">
         Habilidades
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 container font-body ">
         {/* Backend Column */}
-        <div className="flex flex-col items-center text-center border-b-2 md:border-b-0 md:border-r-2">
+        <div className="flex flex-col items-center text-center md:border-r-2">
           <div className="w-20 h-20 rounded-full bg-blue flex items-center justify-center mb-4">
             <Code className="w-10 h-10 text-green" />
           </div>
@@ -49,7 +49,7 @@ export default function SkillsSection() {
         </div>
 
         {/* Frontend Developer Column */}
-        <div className="flex flex-col items-center text-center border-b-2 md:border-b-0 md:border-r-2">
+        <div className="flex flex-col items-center text-center md:border-r-2">
           <div className="w-20 h-20 rounded-full bg-blue flex items-center justify-center mb-4">
             <Layers className="w-10 h-10 text-green" />
           </div>

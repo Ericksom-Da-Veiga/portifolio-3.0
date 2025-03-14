@@ -4,7 +4,7 @@ export default function AboutSection() {
       id="about"
       className="relative w-full bg-blue font-body flex items-center justify-center text-white pb-40 z-0"
     >
-      <div className="container">
+      <div className="container mx-[7%]">
         <div className="mb-20 mt-20 px-8 md:px-0 ">
           <h2 className="font-extrabold font-title text-center text-title-lg text-green mt-4 mb-4">
             Sobre mim

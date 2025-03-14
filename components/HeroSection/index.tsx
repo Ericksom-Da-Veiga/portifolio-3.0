@@ -8,7 +8,7 @@ export default function HeroSection() {
       id="hero"
       className="py-12 px-6 mt-0 h-screen w-full flex items-center justify-center snap-start dark:text-white"
     >
-      <div className="container">
+      <div className="container mx-[7%]">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
           {/* IMAGEM */}
           <div className="w-full md:w-1/3 flex justify-center">
@@ -17,7 +17,7 @@ export default function HeroSection() {
               alt="Foto de Erickson Horta Da Veiga"
               width={350}
               height={350}
-              className="rounded-[30px] w-[80%] max-w-[300px] md:max-w-none md:w-full"
+              className="rounded-[30px] w-[80%] max-w-[250px] md:max-w-[400px]"
             />
           </div>
 

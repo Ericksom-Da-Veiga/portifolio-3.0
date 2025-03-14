@@ -1,0 +1,45 @@
+{
+  "Header": {
+    "title1": "Erickson",
+    "title2": "Da Veiga",
+    "about": "About",
+    "skills": "Skills",
+    "portfolio": "Portfolio"
+  },
+  "Hero": {
+    "title": "Hello, I am",
+    "name": "Erickson Da Veiga",
+    "subtitle": "Software Engineer",
+    "description": "A developer passionate about technology, always looking to innovate and create efficient solutions. I love transforming ideas into digital products that make a difference."
+  },
+  "About": {
+    "title": "About Me",
+    "description": "I am a professional passionate about technology, specialized in web application development and system management. With solid hands-on experience acquired through real projects, I have participated in creating technological solutions for various companies and institutions, always focused on efficiency and innovation. My skills encompass full-stack development, database management, and front-end and back-end frameworks. I have a practical and results-oriented approach, always seeking new ways to optimize processes and provide creative solutions to technological challenges. Fluent in Portuguese and French, I am prepared to work in international and diverse environments, contributing significantly to the growth and success of the projects I am involved in."
+  },
+  "Skills": {
+    "title": "Skills",
+    "Frontend": "Frontend",
+    "Backend": "Backend",
+    "Others": "Other Languages and Technologies"
+  },
+  "Portfolio": {
+    "title": "Portfolio",
+    "modal": {
+      "Nhabex": {
+        "title": "Nhabex",
+        "description": "Queue management system for public and private institutions.",
+        "status": "In Development"
+      },
+      "Sport_Hall": {
+        "title": "Sport Hall",
+        "description": "Management platform for gyms and sports facilities.",
+        "status": "Completed"
+      }
+    }
+  },
+  "Foo": {
+    "title": "Say Hello",
+    "description": "Interested in working together? Let's schedule a time to chat. The coffee is on me.",
+    "Button_text": "Let's Talk"
+  }
+}

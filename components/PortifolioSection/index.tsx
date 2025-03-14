@@ -45,8 +45,8 @@ export default function PortifolioSection() {
   ];
 
   return (
-    <section id="experience" className=" w-full mb-8">
-      <div className="container mx-auto px-4 py-8 mt-8">
+    <section id="portfolio" className=" w-full mb-8">
+      <div className="container md:mx-[7%] px-4 py-8 mt-8">
         <h1 className="text-black text-title-lg font-title  font-extrabold text-center">
           Portifolio
         </h1>

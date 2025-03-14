@@ -1,0 +1,45 @@
+{
+  "Header": {
+    "title1": "Erickson",
+    "title2": "Da Veiga",
+    "about": "À propos",
+    "skills": "Compétences",
+    "portfolio": "Portfolio"
+  },
+  "Hero": {
+    "title": "Bonjour, je suis",
+    "name": "Erickson Da Veiga",
+    "subtitle": "Développeur de logiciel",
+    "description": "Un développeur passionné par la technologie, toujours à la recherche d'innovation et de solutions efficaces. J'adore transformer des idées en produits numériques qui font la différence."
+  },
+  "About": {
+    "title": "À propos de moi",
+    "description": "Je suis un professionnel passionné par la technologie, spécialisé dans le développement d'applications web et la gestion de systèmes. Avec une solide expérience pratique acquise à travers des projets réels, j’ai participé à la création de solutions technologiques pour diverses entreprises et institutions, toujours avec un objectif d'efficacité et d'innovation. Mes compétences couvrent le développement full-stack, la gestion de bases de données ainsi que les frameworks front-end et back-end. J’adopte une approche pratique et axée sur les résultats, cherchant constamment de nouvelles façons d'optimiser les processus et d'apporter des solutions créatives aux défis technologiques. Fluide en portugais et en français, je suis prêt à évoluer dans des environnements internationaux et diversifiés, contribuant de manière significative à la croissance et au succès des projets auxquels je participe."
+  },
+  "Skills": {
+    "title": "Compétences",
+    "Frontend": "Frontend",
+    "Backend": "Backend",
+    "Others": "Autres langages et technologies"
+  },
+  "Portfolio": {
+    "title": "Portfolio",
+    "modal": {
+      "Nhabex": {
+        "title": "Nhabex",
+        "description": "Système de gestion des files d'attente pour les institutions publiques et privées.",
+        "status": "En développement"
+      },
+      "Sport_Hall": {
+        "title": "Sport Hall",
+        "description": "Plateforme de gestion pour salles de sport et espaces sportifs.",
+        "status": "Terminé"
+      }
+    }
+  },
+  "Foo": {
+    "title": "Dites bonjour",
+    "description": "Intéressé par une collaboration ? Planifions un rendez-vous pour en discuter. Le café est pour moi.",
+    "Button_text": "Discutons"
+  }
+}

@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { getRequestConfig } from "next-intl/server";
 
 // Lista de idiomas suportados
-const locales = ["en", "pt"];
+const locales = ["en", "pt", "fr"];
 
 export default getRequestConfig(async ({ requestLocale }) => {
   // Valida se a localidade recebida é suportada
