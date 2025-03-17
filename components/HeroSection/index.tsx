@@ -35,13 +35,19 @@ export default function HeroSection() {
             </p>
             {/* BOTÕES SOCIAIS */}
             <div className="flex justify-center md:justify-start gap-4">
-              <a href="#" className="hover:scale-105 transition">
+              <a
+                href="https://www.linkedin.com/in/erickson-da-veiga/"
+                className="hover:scale-105 transition"
+              >
                 <button className="bg-transparent p-3 rounded-full dark:text-white border-2 border-black hover:border-transparent hover:bg-blue transition hover:text-white flex">
                   <FaLinkedin size={20} />
                   <p className=" px-2 font-medium">LinkedIn</p>
                 </button>
               </a>
-              <a href="#" className="hover:scale-105 transition">
+              <a
+                href="https://github.com/Ericksom-Da-Veiga"
+                className="hover:scale-105 transition"
+              >
                 <button className="bg-transparent p-3 rounded-full dark:text-white border-2 border-black hover:border-transparent hover:bg-blue transition hover:text-white flex">
                   <FaGithub size={20} />
                   <p className=" px-2 font-medium">GitHub</p>
